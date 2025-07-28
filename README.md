@@ -137,10 +137,7 @@ To test this MCP server from source code (locally) without using a built MCP ser
         "run",
         "--project",
         "<PATH TO PROJECT DIRECTORY>"
-      ],
-      "env": {
-        "OPENWEATHER_API_KEY": "your_api_key_here"
-      }
+      ]
     }
   }
 }
