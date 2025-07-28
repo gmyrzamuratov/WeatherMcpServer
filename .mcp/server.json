@@ -1,0 +1,27 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
+  "description": "A real weather MCP server that provides current weather data, forecasts, and weather alerts using the OpenWeatherMap API.",
+  "name": "io.github.user/weather-mcp-server",
+  "packages": [
+    {
+      "registry_name": "nuget",
+      "name": "WeatherMcpServer",
+      "version": "1.0.0",
+      "package_arguments": [],
+      "environment_variables": [
+        {
+          "name": "OPENWEATHER_API_KEY",
+          "description": "OpenWeatherMap API key for accessing weather data",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/user/weather-mcp-server",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "1.0.0"
+  }
+}
